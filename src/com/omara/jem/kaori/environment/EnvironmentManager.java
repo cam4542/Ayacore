@@ -1,7 +1,11 @@
 package com.omara.jem.kaori.environment;
 
 public class EnvironmentManager {
-    public void simulateEcosystem() {
-        System.out.println("[EnvironmentManager] Simulating ecosystem...");
+    public void createEnvironment(String environmentName) {
+        System.out.println("Creating environment: " + environmentName);
+    }
+
+    public void secureEnvironment(String environmentName) {
+        System.out.println("Securing environment: " + environmentName);
     }
 }

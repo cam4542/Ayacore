@@ -15,5 +15,5 @@ public class BluetoothManager {
 
     public void setMotorIntensity(int intensity) {
         System.out.println("Setting motor intensity to: " + intensity);
-   }
+    }
 }

@@ -1,17 +1,11 @@
 package com.omara.jem.kaori.utils;
 
 public class GUIManager {
-    public static void showLoginScreen() {
-        Logger.log("[GUIManager] Displaying login screen...");
+    public void applyAppearance(String aiName) {
+        System.out.println("Applying appearance: " + aiName);
     }
 
-    public static String chooseAppearance(String[] choices, String selectedAppearance) {
-        Logger.log("[GUIManager] Customizing appearance...");
-        return selectedAppearance;
-    }
-
-    public static String assignRandomAppearance() {
-        Logger.log("[GUIManager] Assigning random appearance...");
-        return "Default";
+    public void customizeAppearance(String theme, String[] options) {
+        System.out.println("Customizing appearance: " + theme);
     }
 }
