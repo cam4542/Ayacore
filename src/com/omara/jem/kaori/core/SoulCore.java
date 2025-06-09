@@ -1,8 +1,8 @@
-package com.omara.jem.kaori;
+package com.omara.jem.kaori.core;
 
 import com.omara.jem.kaori.utils.BluetoothManager;
 
-public class AyaCore {
+public class SoulCore {
     public static void main(String[] args) {
         BluetoothManager btManager = new BluetoothManager();
         btManager.connectDevice("MyDevice");

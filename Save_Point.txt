@@ -1,0 +1,19 @@
+# Save Point: BluetoothManager and AyaCore Project
+
+## Steps Completed:
+1. Navigated to ~/src
+2. Removed old bin directory and created new one
+3. Compiled Java source files
+4. Edited BluetoothManager.java to include Logger support
+5. Edited AyaCore.java to include Logger configuration and exception handling
+6. Recompiled Java files
+7. Ran AyaCore
+
+## Next Steps:
+- Monitor logs for issues
+- Add unit tests
+- Implement additional functionality
+
+Added SoulCore.java, compiled, tested connectivity features
+Added SoulCore.java, compiled, tested connectivity features
+Added SoulCore.java, compiled, tested connectivity features
